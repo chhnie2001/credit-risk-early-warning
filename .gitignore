@@ -1,0 +1,72 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit local configuration and secrets
+.streamlit/secrets.toml
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated or downloaded data
+data/raw/*
+data/interim/*
+data/processed/*
+data/generated/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/generated/.gitkeep
+
+# Generated reports and application artifacts
+reports/generated/
+artifacts/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*~
